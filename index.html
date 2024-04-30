@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li class="brand"><img src="logo.jpg" alt="spotify"></li>
+      <li>Home</li>
+      <li>About</li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h1>Best of Western Songs - No copyright sounds</h1>
+    <div class="songList">
+      <div class="songItem">
+        <img alt="1">
+        <span class="songName">My stereo hearts</span>
+        <span class="songListPlay"><span class="timestamp">5:34</span><i id="0" class="fa songItemPlay fa-play-circle"></i></span>
+      </div>
+      <div class="songItem">
+        <img alt="2">
+        <span class="songName">Animals</span>
+        <span class="songListPlay"><span class="timestamp">4:11</span><i id="1" class="fa songItemPlay fa-play-circle"></i></span>
+      </div>
+      <div class="songItem">
+        <img alt="3">
+        <span class="songName">Dusk till Dawn</span>
+        <span class="songListPlay"><span class="timestamp">3:46</span><i id="2" class="fa songItemPlay fa-play-circle"></i></span>
+      </div>
+      <div class="songItem">
+        <img alt="4">
+        <span class="songName">Enemy</span>
+        <span class="songListPlay"><span class="timestamp">5:01</span><i id="3" class="fa songItemPlay fa-play-circle"></i></span>
+      </div>
+      <div class="songItem">
+        <img alt="5">
+        <span class="songName">Let me down slowly</span>
+        <span class="songListPlay"><span class="timestamp">3:37</span><i id="4" class="fa songItemPlay fa-play-circle"></i></span>
+      </div>
+      <div class="songItem">
+        <img alt="6">
+        <span class="songName">Another love</span>
+        <span class="songListPlay"><span class="timestamp">3:55</span><i id="5" class="fa songItemPlay fa-play-circle"></i></span>
+      </div>
+      <div class="songItem">
+        <img alt="7">
+        <span class="songName">Lovely</span>
+        <span class="songListPlay"><span class="timestamp">4:06</span><i id="6" class="fa songItemPlay fa-play-circle"></i></span>
+      </div>
+    </div>
+    <div class="songCover"></div>
+  </div> 
+
+  <div class="bottom">
+    <input type="range" name="range" id="progressBar" value="0" min="0" max="100">
+    <div class="icons">
+      <i class="fas fa-2x fa-heart" style="color: rgb(100, 192, 100);"></i>
+      <i class="fa fa-2x fa-forward" id="next" style="color: rgb(100, 192, 100);"></i>
+      <i id="masterPlay" class="fa fa-2x fa-play-circle" style="color: rgb(100, 192, 100);"></i>
+      <i class="fa fa-2x fa-backward" id="previous" style="color: rgb(100, 192, 100);"></i>
+      <i class="fa fa-2x fa-random" style="color: rgb(100, 192, 100);"></i>
+    </div>
+    <div class="songInfo">
+      <img src="play.gif" alt="gif" width="100px" height="50px" id="gif">
+    </div>
+  </div>
+  <script src="https:///kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
